@@ -1,0 +1,48 @@
+body {
+    /* background-image:url(img/FondHistorique.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24rem;
+    height: 40rem;
+}
+
+.haut {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid black;
+    margin-bottom: 5rem;
+}
+
+.retourProfil {
+
+    background-color: #6D071A;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+
+img[alt="logo profil"] {
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.boxHistorique{
+    height: 197px;
+    width: 94% ;
+    border: 3px solid black;
+}
+
+.boutonH{
+    margin-left: 7.5rem;
+    margin-top: 3rem;
+}
+
+.logoHistorique{
+
+    width: 3rem;
+    height: 3rem;
+}
