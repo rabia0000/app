@@ -1,15 +1,13 @@
 body {
-    /* background-image:url(img/FondHistorique.png); */
+    background-image:url(img/leg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 24rem;
-    height: 40rem;
-}
+
+   }
 
 .haut {
-    width: 100%;
     height: 5rem;
-    border: 1px solid black;
+    
     margin-bottom: 5rem;
 }
 
@@ -18,7 +16,7 @@ body {
     background-color: #6D071A;
     padding: 8px;
     color: white;
-    border-radius: 10px;
+    border-radius: 20% 20%;
     font-weight: bold;
 
 }
@@ -31,18 +29,50 @@ img[alt="logo profil"] {
 }
 
 .boxHistorique{
-    height: 197px;
-    width: 94% ;
-    border: 3px solid black;
+    height: 10rem;
+   
+    
 }
 
 .boutonH{
-    margin-left: 7.5rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+  
+    background-color:   rgba(0, 202, 105, 0.5);
+    font-size: 1.8rem ;
+    border-radius: 10px;
+    color: white;
+    width: 17rem;
+    margin-top: 2rem ;
+    padding: 1rem;
+    
+   
 }
 
 .logoHistorique{
-
+    
+    margin-right: 1rem;
     width: 3rem;
     height: 3rem;
+}
+
+.boutons{
+    height: 34rem;
+    border-top: 3rem;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.item{
+    
+    margin-left: 3.5rem;
+    border-radius: 55% 55%;
+    background-color:  rgba(4, 78, 223, 1);
+    color: white;
+    width: 17rem;
+    height: 6rem;
 }
